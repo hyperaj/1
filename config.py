@@ -6,18 +6,18 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID","6435225"))
-API_HASH = getenv("API_HASH","4e984ea35f854762dcde906dce426c2d")
-BOT_TOKEN = getenv("BOT_TOKEN","")
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+API_ID = int(getenv("API_ID","23017054"))
+API_HASH = getenv("API_HASH","4978a4886dfda8b752205fbb854b5f91")
+BOT_TOKEN = getenv("BOT_TOKEN","6057396949:AAFqboh4svUOQP06RDORanI_zP5i6XTFEh0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb://clve73lfu001ha4me1al6gw90:UTfT7DjJGjwyvbdXaM1hDrVj@104.251.218.202:9013/?readPreference=primary&ssl=false")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "9999"))
-LOGGER_ID = int(getenv("LOGGER_ID", "-1001971806089"))
-BOTADDLOGS = int(getenv("BOTADDLOGS", "-1001971806089")) # LOGGER_ID Id Also Use No Problem
-GBAN_LOGS = int(getenv("GBAN_LOGS", "-1002046393302"))
-GCAST_USERS = list(map(int, getenv("GCAST_USERS", "2105971379 5916859256").split()))
-OWNER_ID = int(getenv("OWNER_ID", 2105971379))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002066328009"))
+BOTADDLOGS = int(getenv("BOTADDLOGS", "-1002066328009")) # LOGGER_ID Id Also Use No Problem
+GBAN_LOGS = int(getenv("GBAN_LOGS", "-1002066328009"))
+GCAST_USERS = list(map(int, getenv("GCAST_USERS", "655594746").split()))
+OWNER_ID = int(getenv("OWNER_ID", 5598323486))
 OWNER = int(getenv("OWNER", 5916859256))
-OWNER_USERNAME = getenv("OWNER_USERNAME","sultan11100")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Li_xiaoyu_fan")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/AbhiModszYT/AnieXEricaMusic")
